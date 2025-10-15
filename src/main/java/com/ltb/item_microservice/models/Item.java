@@ -6,7 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.*;
 
-@Entity
+@Entity(name = "items")
 @Getter
 @Setter
 @AllArgsConstructor
